@@ -5,64 +5,79 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Kaden Rose's Portfolio - Showing you his web development, designs, and creative projects.">
-    <meta name="keywords" content="portfolio, web developer, designer, Kaden Rose, projects, webdev">
+    <meta name="description" content="Portfolio of Kaden Rose - Web Developer and Front-End Engineer">
     <meta name="author" content="Kaden Rose">
 
     <title>Kaden Rose - Portfolio - Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Front-End Developer Portfolio</h1>
-        <p>Kaden Rose</p>
-        <p>An ardent and strong <strong>Front-End Developer</strong> ready to create and improve interactive and accessible websites for everyone.</p>
+    <header class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-4">
+                    <h1 class="fw-bold mb-1" style="color: var(--true-navy)">Kaden Rose</h1>
+                    <p class="fw-medium mb-0">Front-End Developer</p>
+                </div>
+
+
+                <div class="col-12 col-md-8">
+                    <p class="mb-2 fw-medium"></p>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <h2>Nav links</h2>
-        <ul>
-            <li><a href="#about_me">About Me</a></li>
-            <li><a href="#project_01">Project 1</a></li>
-            <li><a href="#project_02">Project 2</a></li>
-            <li><a href="#project_03">Project 3</a></li>
-            <li><a href="#contact_me">Contact Me</a></li>
-        </ul>
-    </nav>
+    <main class="container py-5">
 
-    <main>
-        <section id="about_me">
-            <h2>About Me</h2>
-            <p></p>
+        <section class="mb-5">
+            <h2 class="fw-bold mb-3" style="color: var(--true-navy)">Skills</h2>
+
+
+            <div class="skills-list d-flex flex-wrap">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+            </div>
         </section>
 
-        <section id="project_01">
-            <h2>Project 1</h2>
-        </section>
 
-        <section id="project_02">
-            <h2>Project 2</h2>
-        </section>
+        <section>
+            <h2 class="fw-bold mb-4" style="color: var(--true-navy)">Case Studies</h2>
 
-        <section id="project_03">
-            <h2>Project 3</h2>
-        </section>
 
-        <section id="contact_me">
-            <h2>Contact Me</h2>
+            <div class="project-scroll">
+                <div class="project-card">
+                    <h3 class="fw-bold" style="color: var(--true-navy)">Project One</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="project-card">
+                    <h3 class="fw-bold" style="color: var(--true-navy)">Project Two</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="project-card">
+                    <h3 class="fw-bold" style="color: var(--true-navy)">Project Three</h3>
+                    <p></p>
+                </div>
+            </div>
         </section>
     </main>
     
     <footer>
-        <section id="socail_links">
-            <h2>Social Links</h2>
-            <ul>
-                <li><a href="https://github.com/kadenrose">GitHub</a></li>
-                <li><a href="https://codepen.io/kadenrose">CodePen</a></li>
-                <li><a href="#">Other</a></li>
-            </ul>
-        </section>
+        <div class="container text-center">
+            <p class="mb-1">© 2025 Kaden Rose. All Rights Reserved.</p>
+        </div>
     </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

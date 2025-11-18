@@ -1,22 +1,81 @@
 /*  CSS BY KADEN ROSE */
 
 /* IMPORTED FONTS */
+@font-face {
+font-family: "SF Pro Expanded";
+src: local("SF Pro Expanded");
+}
 
 /* CSS RESET */
 
 /* ROOT VARIABLES */
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    
-    --font-size: ;
-
-    --typeface-01: ;
+--black: #000000;
+--true-navy: #235740;
+--harpers-blue: #97B3C0;
+--alice-blue: #DDE5ED;
+--white: #ffffff;
+--fern: #4B6759;
 }
 /* GLOBAL STYLES */
+body {
+font-family: "SF Pro Expanded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background-color: var(--alice-blue);
+color: var(--black);
+}
+
+
+header {
+background-color: var(--white);
+border-bottom: 3px solid var(--true-navy);
+}
+
+
+.skills-list span {
+background-color: var(--fern);
+color: var(--white);
+padding: 0.5rem 1rem;
+border-radius: 50px;
+font-size: 0.95rem;
+margin-right: 0.5rem;
+white-space: nowrap;
+}
+
+
+.project-card {
+background-color: var(--white);
+border-radius: 1rem;
+border: 2px solid var(--harpers-blue);
+padding: 2rem;
+min-width: 300px;
+max-width: 350px;
+}
+
+
+.project-scroll {
+overflow-x: auto;
+display: flex;
+gap: 1.5rem;
+padding-bottom: 1rem;
+scroll-snap-type: x mandatory;
+}
+
+
+.project-card {
+scroll-snap-align: start;
+}
+
+
+footer {
+background-color: var(--true-navy);
+color: var(--white);
+padding: 2rem 0;
+margin-top: 3rem;
+}
 
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
 
 /* MEDIA QUERY (xl) */
+
