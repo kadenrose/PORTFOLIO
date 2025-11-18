@@ -78,11 +78,3 @@ The site is intentionally minimal and divided into three main regions:
 The layout is fully responsive using Bootstrap’s grid system.  
 The horizontal projects section gracefully adapts on mobile and supports swipe scrolling.
 
----
-
-## 🚀 How to Use / Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/kadenrose/PORTFOLIO.git
