@@ -11,7 +11,6 @@ This project was developed to:
 
 - Showcase my skills as a **front-end web developer and UI designer**
 - Provide a clean, accessible, single-page experience
-- Replace the use of no-code site builders (Wix, Squarespace) with a custom-coded site
 - Meet course requirements while demonstrating real-world development ability
 - Present projects in a structured, scannable format that works well for **AI-based resume/portfolio reviewers**
 
@@ -23,7 +22,6 @@ This project was developed to:
 - **CSS3**
 - **Bootstrap 5.3**
 - **Vanilla JavaScript** (custom functionality added later)
-- **SF Pro Expanded** (typography)
 - **Semantic & Accessible Web Structure**
 
 ---
@@ -40,11 +38,6 @@ This project was developed to:
 | Alice Blue    | `#DDE5ED` |
 | White         | `#FFFFFF` |
 | Fern          | `#4B6759` |
-
-### Typography
-
-- **SF Pro Expanded** — Regular, Medium, Bold, Black  
-- System font fallback included for accessibility and performance
 
 ---
 
