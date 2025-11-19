@@ -2,75 +2,100 @@
 
 /* IMPORTED FONTS */
 @font-face {
-font-family: "SF Pro Expanded";
-src: local("SF Pro Expanded");
+    font-family: "SF Pro Expanded";
+    src: local("SF Pro Expanded");
 }
 
 /* CSS RESET */
 
 /* ROOT VARIABLES */
 :root {
---black: #000000;
---true-navy: #235740;
---harpers-blue: #97B3C0;
---alice-blue: #DDE5ED;
---white: #ffffff;
---fern: #4B6759;
-}
+    --black: #000000;
+    --true-navy: rgb(37, 55, 64);
+    --harpers-blue: #97B3C0;
+    --alice-blue: #DDE5ED;
+    --white: #ffffff;
+    --fern: #4B6759;
+    }
 /* GLOBAL STYLES */
 body {
-font-family: "SF Pro Expanded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-background-color: var(--alice-blue);
-color: var(--black);
+    font-family: "SF Pro Expanded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--alice-blue);
+    color: var(--black);
 }
 
 
 header {
-background-color: var(--white);
-border-bottom: 3px solid var(--true-navy);
+    background-color: var(--white);
+    border-bottom: 3px solid var(--true-navy);
 }
 
 
 .skills-list span {
-background-color: var(--fern);
-color: var(--white);
-padding: 0.5rem 1rem;
-border-radius: 50px;
-font-size: 0.95rem;
-margin-right: 0.5rem;
-white-space: nowrap;
+    background-color: var(--fern);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    margin-right: 0.5rem;
+    white-space: nowrap;
 }
 
 
 .project-card {
-background-color: var(--white);
-border-radius: 1rem;
-border: 2px solid var(--harpers-blue);
-padding: 2rem;
-min-width: 300px;
-max-width: 350px;
+    background-color: var(--white);
+    border-radius: 1rem;
+    border: 2px solid var(--harpers-blue);
+    padding: 2rem;
+    width: auto;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;   
+    grid-template-areas:
+        "h3 h3"
+        "description media";
+    gap: 1.5rem; */
+}
+
+.project-card p {
+    max-width: 64ch;
+    text-align: justify;
+}
+
+.media {
+    width: 800px;
+    height: 540px;
+    border-radius: 1rem;
 }
 
 
 .project-scroll {
-overflow-x: auto;
-display: flex;
-gap: 1.5rem;
-padding-bottom: 1rem;
-scroll-snap-type: x mandatory;
+    /* display: flex; */
+    gap: 1.5rem;
+    padding-bottom: 1rem;
 }
 
-
-.project-card {
-scroll-snap-align: start;
+.caseStudyHeading, h4 {
+    color: var(--true-navy);
 }
-
 
 footer {
-background-color: var(--true-navy);
-color: var(--white);
-padding: 2rem 0;
-margin-top: 3rem;
+    background-color: var(--true-navy);
+    color: var(--white);
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+#campaign_h3 {
+    grid-area: h3;
+}
+
+#campaign_description {
+    grid-area: description;
+}
+
+#campaign_media {
+    grid-area: media;
 }
 
 /* MEDIA QUERY (medium) */
