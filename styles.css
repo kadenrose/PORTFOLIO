@@ -193,6 +193,11 @@ body {
 }
 
 
+#imgBoxRodney:hover, #imgBoxCampaign:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
 /* MEDIA QUERY (large) */
 
 /* MEDIA QUERY (xl) */
