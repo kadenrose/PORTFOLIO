@@ -21,7 +21,7 @@
 body {
     font-family: "SF Pro Expanded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--alice-blue);
-    color: var(--black);
+    color: var(--true-navy);
 }
 
 
@@ -46,33 +46,22 @@ header {
     background-color: var(--white);
     border-radius: 1rem;
     border: 2px solid var(--harpers-blue);
-    padding: 2rem;
-    width: auto;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;   
-    grid-template-areas:
-        "h3 h3"
-        "description media";
-    gap: 1.5rem; */
+    padding: 2rem;    /* width: auto; */
 }
 
 .project-card p {
-    max-width: 64ch;
-    text-align: justify;
+    /* max-width: 64ch; */
 }
 
 .media {
-    width: 800px;
-    height: 540px;
-    border-radius: 1rem;
+    /* width: 800px; */
+    /* height: 540px; */
+    /* border-radius: 1rem; */
 }
 
 
 .project-scroll {
-    /* display: flex; */
-    gap: 1.5rem;
-    padding-bottom: 1rem;
+    
 }
 
 .caseStudyHeading, h4 {
@@ -84,18 +73,6 @@ footer {
     color: var(--white);
     padding: 2rem 0;
     margin-top: 3rem;
-}
-
-#campaign_h3 {
-    grid-area: h3;
-}
-
-#campaign_description {
-    grid-area: description;
-}
-
-#campaign_media {
-    grid-area: media;
 }
 
 /* MEDIA QUERY (medium) */
