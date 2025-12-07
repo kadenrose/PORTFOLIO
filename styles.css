@@ -75,7 +75,123 @@ footer {
     margin-top: 3rem;
 }
 
+body {
+    font-family: "SF Pro Expanded", sans-serif;
+    background-color: var(--alice-blue);
+    color: var(--black);
+}
+
+.site-title {
+    font-weight: 900;
+    color: var(--true-navy);
+}
+
+.section-title {
+    font-weight: 800;
+    color: var(--true-navy);
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+}
+
+.site-header {
+    background-color: #DDE5ED; /* Alice Blue */
+    color: var(--true-navy);
+    border-bottom: 3px solid var(--true-navy);
+}
+
+.site-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.site-role {
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.site-bio {
+    font-size: 1rem;
+    max-width: 550px;
+    line-height: 1.5;
+}
+
+.profile-img {
+    border-radius: 5px;
+    max-width: 160px; /* tweak size */
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+
 /* MEDIA QUERY (medium) */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 1.6rem;
+    }
+
+    .header-logo {
+        height: 45px;
+    }
+
+    .profile-img {
+        max-width: 120px;
+    }
+
+    .site-bio {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .skill-icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+/* Keep identity group compact */
+.header-logo {
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: .25rem !important;
+}
+
+.site-role {
+    font-size: .9rem;
+    letter-spacing: .07em;
+    opacity: .7;
+    margin-bottom: 0;
+}
+
+.site-bio {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 100%;
+    margin: 0;
+}
+
 
 /* MEDIA QUERY (large) */
 
