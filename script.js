@@ -25,4 +25,9 @@ $("#imgBoxRodney").on("click", function(){
     
 });
 
+$(window).on("load", function() {
+    // Wait for all images to load
+    $("#loadingOverlay").fadeOut(3000);
+});
+
 
