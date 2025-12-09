@@ -1,6 +1,6 @@
 # Kaden Rose — Portfolio Website
 
-A simple, clean, and fully hand-coded single-page portfolio website built with **HTML**, **CSS**, **Bootstrap**, and **vanilla JavaScript**.  
+A simple, clean, and fully hand-coded single-page portfolio website built with **HTML**, **CSS**, **Bootstrap**, and **jQuery**.  
 Created as part of a Portfolio Development course, with the goal of demonstrating front-end development skills through a professional, accessible, and intentionally minimal layout.
 
 ---
@@ -12,7 +12,7 @@ This project was developed to:
 - Showcase my skills as a **front-end web developer and UI designer**
 - Provide a clean, accessible, single-page experience
 - Meet course requirements while demonstrating real-world development ability
-- Present projects in a structured, scannable format that works well for **AI-based resume/portfolio reviewers**
+- Present projects in a structured, scannable format that works well for **portfolio reviewers**
 
 ---
 
@@ -21,7 +21,7 @@ This project was developed to:
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5.3**
-- **Vanilla JavaScript** (custom functionality added later)
+- **jQuery** (custom functionality added later)
 - **Semantic & Accessible Web Structure**
 
 ---
@@ -58,11 +58,14 @@ The site is intentionally minimal and divided into three main regions:
 
 #### Projects Section
 - Three case studies
-- Horizontally scrollable layout to create a guided experience
+- Grouped by an easy-to-use accordion
+
+### Contact
+- GitHub
+- LinkedIn
 
 ### Footer
 - Copyright information
-- Contact email
 
 ---
 
